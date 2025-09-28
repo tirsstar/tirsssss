@@ -2,7 +2,7 @@ const teksArray = [
   "Jangan lupa istirahat ya 💖",
   "Semangat yaa sayanggg",
   "Jangan telat makan juga okeii",
-  "YAHAHAHA LOVE LAGI ORANG TUA",
+  "YAHAHAHA LOVE U LAGI ORANG TUA",
 ];
 
 let index = 0;
@@ -11,7 +11,7 @@ function gantiTeks() {
   index = (index + 1) % teksArray.length;
   document.getElementById("romantisText").textContent = teksArray[index];
 
-  if (teksArray[index] === "YAHAHAHA LOVE LAGI ORANG TUA") {
+  if (teksArray[index] === "YAHAHAHA LOVE U LAGI ORANG TUA") {
     document.getElementById("gantiBtn").style.display = "none";
   }
 }
@@ -28,4 +28,5 @@ for (let i = 0; i < 20; i++) {
   heart.style.setProperty('--i', Math.random());
   hearts.appendChild(heart);
 }
+
 
