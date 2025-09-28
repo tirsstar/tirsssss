@@ -1,6 +1,6 @@
 const teksArray = [
-  "Jangan lupa istirahat ya 💖",
-  "Jangan telat makan juga okeii",
+  "..........",
+  "Sepertinya aku sudah tergila-gila deh",
   "Mau liat senyumnya tiap hari bisa gasi?",
   "YAHAHAHA LOVE U LAGI ORANG TUA",
 ];
@@ -28,6 +28,7 @@ for (let i = 0; i < 20; i++) {
   heart.style.setProperty('--i', Math.random());
   hearts.appendChild(heart);
 }
+
 
 
 
