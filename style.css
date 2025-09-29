@@ -46,6 +46,22 @@ button:hover {
   background-color: #e60073;
 }
 
+a.btn-nav {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #d72660;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+a.btn-nav:hover {
+  background: #a81d48;
+}
+
 .hearts::before,
 .hearts::after {
   content: '❤️';
@@ -66,3 +82,4 @@ button:hover {
     opacity: 0;
   }
 }
+
