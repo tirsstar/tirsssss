@@ -3,7 +3,7 @@ const teksArray = [
   "kayaknya aku sudah tergila-gila sama kamu deh",
   "hehehehehehehehe",
   "Bisa ga si liat senyum kamu tiap hari?",
-  "harusnya bisa si, kan bisa ekhm(pap",
+  "harusnya bisa si, kan bisa ekhm(pap)",
   "intinya love u YAHAHAHAHAHAHHA😜😜😜",
 ];
 
@@ -30,6 +30,7 @@ for (let i = 0; i < 20; i++) {
   heart.style.setProperty('--i', Math.random());
   hearts.appendChild(heart);
 }
+
 
 
 
