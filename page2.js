@@ -28,5 +28,11 @@ function spawnBgLove() {
     love.remove();
   }, 5000);
 }
-
 setInterval(spawnBgLove, 400);
+
+const btnSurat = document.getElementById("btn-surat");
+const surat = document.getElementById("surat");
+
+btnSurat.addEventListener("click", () => {
+  surat.classList.toggle("show");
+});
