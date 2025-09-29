@@ -126,7 +126,7 @@ body {
   margin-top: 8px;
   font-weight: bold;
   color: #d72660;
-
+}
   .surat-box {
   display: none;
   margin-top: 24px;
@@ -170,4 +170,5 @@ body {
   display: block;
   animation: openLetter 0.6s ease forwards;
 }
+
 
