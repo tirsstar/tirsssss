@@ -1,8 +1,10 @@
 const teksArray = [
   "..........",
-  "Sepertinya aku sudah tergila-gila deh",
-  "Mau liat senyumnya tiap hari bisa gasi?",
-  "YAHAHAHA LOVE U LAGI ORANG TUA",
+  "kayaknya aku sudah tergila-gila sama kamu deh",
+  "hehehehehehehehe",
+  "Bisa ga si liat senyum kamu tiap hari?",
+  "harusnya bisa si, kan bisa ekhm(pap),
+  "intinya love u YAHAHAHAHAHAHHA😜😜😜",
 ];
 
 let index = 0;
@@ -11,7 +13,7 @@ function gantiTeks() {
   index = (index + 1) % teksArray.length;
   document.getElementById("romantisText").textContent = teksArray[index];
 
-  if (teksArray[index] === "YAHAHAHA LOVE U LAGI ORANG TUA") {
+  if (teksArray[index] === "intinya love u YAHAHAHAHAHAHHA😜😜😜") {
     document.getElementById("gantiBtn").style.display = "none";
   }
 }
@@ -28,6 +30,7 @@ for (let i = 0; i < 20; i++) {
   heart.style.setProperty('--i', Math.random());
   hearts.appendChild(heart);
 }
+
 
 
 
