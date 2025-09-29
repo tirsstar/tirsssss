@@ -126,4 +126,48 @@ body {
   margin-top: 8px;
   font-weight: bold;
   color: #d72660;
+
+  .surat-box {
+  display: none;
+  margin-top: 24px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(215,38,96,0.25);
+  transform-origin: top center;
+  text-align: left;
+  overflow: hidden;
 }
+
+.surat-box h3 {
+  margin-top: 0;
+  color: #d72660;
+}
+
+@keyframes openLetter {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) rotateX(-90deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05) rotateX(15deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateX(0deg);
+  }
+}
+  
+  .button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* jarak antar tombol */
+  margin-bottom: 20px;
+}
+  .surat-box.show {
+  display: block;
+  animation: openLetter 0.6s ease forwards;
+}
+
