@@ -35,6 +35,7 @@ const surat = document.getElementById("surat");
 
 btnSurat.addEventListener("click", () => {
   surat.classList.toggle("show");
+  });
 
 const musicBtn = document.getElementById("musicBtn");
 const audio = document.getElementById("lagu");
@@ -50,5 +51,6 @@ musicBtn.addEventListener("click", () => {
 });
 
   
+
 
 
