@@ -35,4 +35,20 @@ const surat = document.getElementById("surat");
 
 btnSurat.addEventListener("click", () => {
   surat.classList.toggle("show");
+
+const musicBtn = document.getElementById("musicBtn");
+const audio = document.getElementById("lagu");
+
+musicBtn.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.play();
+    musicBtn.textContent = "⏸ Pause Musik";
+  } else {
+    audio.pause();
+    musicBtn.textContent = "▶ Putar Musik";
+  }
 });
+
+  
+
+
