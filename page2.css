@@ -26,7 +26,7 @@ body {
 
 .btn-nav {
   display: inline-block;
-  margin-top: 20px;
+  margin: 10px;
   padding: 10px 24px;
   background: #d72660;
   color: #fff;
@@ -189,6 +189,7 @@ body {
   position: relative;
   z-index: 1; /* biar nggak nutupin tombol lain */
 }
+
 
 
 
